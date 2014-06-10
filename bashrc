@@ -113,4 +113,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
+export PATH=$HOME/.cabal/bin/:$PATH
+
 . /usr/share/autojump/autojump.bash
