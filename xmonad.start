@@ -1,0 +1,5 @@
+i3status | xmobar -o -t "%StdinReader%" -c "[Run StdinReader]" &
+feh --bg-fill ~/Pictures/background.png
+dropbox start
+
+exec xmonad
