@@ -6,7 +6,7 @@ set autowrite
 " Read when someone else makes changes (iff we haven't made any ourselves)
 set autoread
 
-colorscheme darkblue
+colorscheme torte
 
 " Indentation!
 set expandtab
