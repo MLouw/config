@@ -101,7 +101,6 @@ myTopicConfig = TopicConfig
       , ("im", spawn "pidgin")
       , ("im", spawn "xchat")
       , ("procrastination", newBrowser ["https://cloud.feedly.com"
-                                       ,"https://www.facebook.com"
                                        ,"http://www.reddit.com"])
       , ("webdev", spawn "gnome-terminal -e 'ssh -p 2222 tayacan@tayacan.dk'")
       , ("ping", spawn "gnome-terminal -e 'ping 8.8.8.8'")
