@@ -16,4 +16,8 @@ set shiftround
 set autoindent
 set smartindent
 
+autocmd BufNewFile,BufRead *.lhs setlocal filetype=lhs textwidth=80
+
 filetype indent plugin on
+
+set pastetoggle=<F12>
